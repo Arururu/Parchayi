@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <style>
+        /* Add responsive styles here */
+        @media screen and (max-width: 768px) {
+            .navbar-nav {
+                margin-top: 10px;
+            }
+            .navbar-nav .nav-item {
+                margin-bottom: 10px;
+            }
+            .photo-text-section {
+                flex-direction: column;
+            }
+            .photo-section,
+            .text-section {
+                width: 100%;
+            }
+            .text-section {
+                height: auto;
+                padding: 20px;
+            }
+            .styled-button1 {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+            .footer {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color:#FCFCF3">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FCFCF3;" id="top">
+        <div class="container-fluid justify-content-between">
+            <a class="navbar-brand" href="#">
+                <img src="images/parchai logo Background Removed.png" width="90" height="70" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item" style="background-color:#FCFCF3">
+                        <a class="nav-link " href="INDEX.html">Home</a>
+                    </li>
+                    <li class="nav-item" style="background-color:#FCFCF3">
+                        <a class="nav-link " href="HISTORY.html">History</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About the Craft
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="MOTIFS&STITCHES.html">Motifs and Stitches</a></li>
+                            <li><a class="dropdown-item" href="#">Production Process</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ARTISANS.html">Artisans</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blogs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <img src="assetes/home page 1st photo..png" alt="" style="width: 100%;">
+    </div>
+    <div>
+        <img src="assetes/banner home.png" alt="" style="width: 100%">
+    </div>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500"
+        style="margin-bottom: 50px;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assetes/fotu.jpg" class="d-block w-100" alt="First Slide">
+            </div>
+            <div class="carousel-item">
+                <img src="assetes/fotu2.png" class="d-block w-100" alt="Third Slide">
+            </div>
+            <div class="carousel-item">
+                <img src="assetes/1.png" class="d-block w-100" alt="Third Slide">
+            </div>
+        </div>
+        <!-- These buttons are hidden with CSS -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" style="position: absolute; left: -9999px;">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next" style="position: absolute; right: -9999px;">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div>
+        <img src="assetes/banner lko.png" alt="loading error" style="width: 100%;">
+    </div>
+
+    <img src="assetes/homepage photo 3.png" style="width: 100%" alt="loading error">
+<div style="width: 100%; position: relative; padding-bottom: 56.25%; /* 16:9 aspect ratio */ height: 0;">
+        <video style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" controls>
+          <source src="assetes/GIF_1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="assetes/home photo onli text.png" alt="loading error" style="width: 100%">
+        </div>
+        <div class="col-lg-6">
+            <img src="assetes/GIFFF.gif" style="width: 100%; padding-left:0px; padding-bottom:  100px" class="img-fluid" alt="loading error">
+        </div>
+    </div>
+    <img src="assetes/photo home last.png" alt="loading error" style="width: 100%">
+
+    <div class="photo-text-section" style="margin-top: 100px;">
+        <div class="photo-section">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"
+                style="margin-bottom: 50px;">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assetes/gege.png" class="d-block w-100" alt="First Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assetes/pupu.png" class="d-block w-100" alt="Second Slide">
+                    </div>
+                </div>
+                <!-- These buttons are hidden with CSS -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="text-section">
+            <p style="font-family: Mulish;">
+                A Stitch in Time: 
+                The Enduring Legacy of Chikankari
+            </p>
+            <button class="styled-button">HISTORY -></button>
+        </div>
+    </div>
+
+    <div class="photo-text-section">
+        <div class="text-section" style="text-align: left;">
+            <p style="font-family: Mulish; text-align: right;">
+                Unveiling the Art of Chikankari:
+                Motifs and Stitches
+            </p>
+            <button class="styled-button1">Craft Components -></button>
+        </div>
+        <div class="photo-section">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"
+                style="margin-bottom: 50px;">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assetes/pepe.png" class="d-block w-100" alt="First Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assetes/dudu.png" class="d-block w-100" alt="Second Slide">
+                    </div>
+                </div>
+                <!-- These buttons are hidden with CSS -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div style="position: fixed; bottom: 20px; right: 20px; z-index:100">
+        <button id="scroll-to-top"
+            style="background-color: #f8a8cc; color: #fff; border: none; border-radius: 50%; width: 60px; height: 60px; font-size: 24px; display: flex; justify-content: center; align-items: center; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
+            <a href="#top"> <i class="fas fa-chevron-up" style="color: white;"></i></a>
+        </button>
+    </div>
+
+    <footer class="footer" style="position: relative;">
+        <div style="position: relative; z-index: 1;">
+          <!-- Your existing footer content goes here -->
+          <div>
+            <h3>Be The KNOW</h3>
+            <p>By siging up for alerts, you agree to receive</p>
+            <p>emails and text message from Parchhayi.</p>
+          </div>
+          <div style="width: 20%;margin-left: 40%;">
+            <input type="text" class="rounded-input" placeholder="enter your email address">
+          </div>
+          <div style="margin:40px;">
+            <div class="row">
+              <div class="col-sm" style="text-align: left;">
+                <div style="margin-left: 10px;">
+                  <p style="font-size: 20px">Find us on</p>
+                  <div>
+                    <a href="https://www.facebook.com/yourprofile" target="_blank" style="text-decoration: none; color: inherit; margin-right: 10px;">
+                      <i class="fab fa-facebook" style="color: #f8a8cc"></i>
+                    </a>
+                    <a href="https://www.instagram.com/yourprofile" target="_blank" style="text-decoration: none; color: inherit; margin-right: 10px;">
+                      <i class="fab fa-instagram" style="color: #f8a8cc"></i>
+                    </a>
+                    <a href="https://www.pinterest.com/yourprofile" target="_blank" style="text-decoration: none; color: inherit; margin-right: 10px;">
+                      <i class="fab fa-pinterest" style="color: #f8a8cc"></i>
+                    </a>
+                  </div>
+                  <p>Location chikankari stores</p>
+                </div>
+                <div style="position: relative; width: 70%;">
+                  <input type="text" class="rounded-input" placeholder="City , Country" style="width: 100%; padding-left: 30px;">
+                  <div style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%);">
+                    <svg width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                      <path d="M8 16s6-5.686 6-10a6 6 0 1 0-12 0c0 4.314 6 10 6 10zm0-12a4 4 0 1 1 0 8 4 4 0 0 1 0-8z" />
+                      <path d="M9 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <h3 style="text-align: left;">About Us</h3>
+                <div>
+                  <div class="row">
+                    <div class="col-sm col-3">
+                      <a class="navbar-brand" href="#">
+                        <img src="assetes/7.png" alt="Logo" width="125" height="70">
+                      </a>
+                    </div>
+                    <div class="col-sm col-7" style="text-align: left;">
+                      <p>Parchhayi began as a mission to support Lucknow's Chikankari artisans. Through research and collaboration, we became a community dedicated to financial empowerment, and cultural preservation.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm" style="text-align: left; margin-left: 50px;">
+                <h3 style="margin: 0px; margin-bottom: 5px;">Help</h3>
+                <p>
+                  <i class="fab fa-whatsapp" style="margin-right: 5px; color: #f8a8cc"></i> +91 93635630905945
+                </p>
+                <p>
+                  <i class="fas fa-envelope" style="margin-right: 5px; color: #f8a8cc"></i> Parichay@gmail.com
+                </p>
+                <p style="margin-top: 20px;">Gallery</p>
+                <p>Blogs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Add the overlaying image -->
+        <img src="ParchhayiUI/footer ke dhage.png" alt="Overlay Image" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
+      </footer>
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    
+    </html>

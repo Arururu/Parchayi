@@ -1,0 +1,278 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the navigation items */
+.nav-item {
+    padding: 0 15px; 
+}
+
+html, body {
+    height: 100%;
+    overflow: auto; /* Allow scrolling */
+}
+
+/* Navbar configuration */
+.navbar {
+    z-index: 1000; /* Keep navbar on top */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: none; /* Hide the previous and next buttons */
+}
+
+
+.polygon-container {
+    text-align: center;
+  }
+  
+  .polygon {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin: 20px;
+    background-color: transparent;
+  }
+  
+  .polygon img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .polygon .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Mulish';
+    font-weight: 100;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: #000;
+  }
+
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 80vh; /* Half the viewport height */
+    overflow: hidden;
+}
+
+.full-width-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the container without distortion */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 5%; /* Position from the left side */
+    transform: translateY(-50%); /* Center vertically */
+    width: 50%; /* Limit text width to 50% of the container */
+    text-align: left;
+    color: white;
+    padding: 10px; /* Padding for inner text */
+    border-radius: 5px; /* Optional: rounded corners */
+    background: none; /* No background color */
+}
+
+.text-overlay h1 {
+    margin-bottom: 10px; /* Space between heading and paragraph */
+}
+
+.photo-text-section {
+    display: flex; /* Flex layout for side-by-side arrangement */
+    flex-direction: row; /* Horizontal arrangement */
+    align-items: flex-start; /* Align at the top */
+
+}
+
+.photo-section {
+    width: 55%; /* Allocate half of the width for the image */
+    height: 50vh; /* Set the height to 25% of the viewport */
+    overflow: hidden; /* Prevent overflow if the image is larger */
+    
+}
+
+.photo-section img {
+    width: 100%; /* Make the image fill its container */
+    height: 100%; /* Maintain the height of the container */
+    object-fit: cover; /* Crop or expand to fit without distortion */
+}
+
+.text-section  {
+    width: 45%; /* Allocate almost half the width for the text */
+    color: black; /* Text color to contrast with the background */
+    
+    background: linear-gradient(to right, #FCFCF3, #FAD4E5); /* Gradient background */
+    padding: 20px;
+    height: 50vh;
+}
+.text-section p {
+    font-weight: 200;
+    font-size: xx-large;
+    text-align: left;
+    margin-top: 20%;
+}
+
+.text-section h1 {
+    font-weight: bold; /* Make the heading bold */
+    margin-bottom: 10px; /* Spacing between heading and paragraph */
+}
+
+.styled-button {
+    display: block; /* Ensures the button starts on a new line */
+    margin-top: 10px; /* Spacing above the button */
+    padding: 10px 20px; /* Padding for the button */
+    border: 2px solid pink; /* Pink border */
+    border-radius: 25px; /* Rounded corners */
+    background: white; /* Transparent background */
+    cursor: pointer; 
+}
+
+.styled-button1{
+    margin-left: 420px; /* Spacing above the button */
+    padding: 10px 20px; /* Padding for the button */
+    border: 2px solid pink; /* Pink border */
+    border-radius: 25px; /* Rounded corners */
+    background: white; /* Transparent background */
+    cursor: pointer; 
+}
+
+
+
+
+
+.styled-button:hover {
+    background: pink; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+.styled-button1:hover {
+    background: pink; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+.container {
+    background-color: #f0e6f7;
+    padding: 20px;
+}
+
+/* Section headings */
+.signup p,
+.social-media p,
+.locate-store p {
+    font-weight: bold;
+}
+
+/* Email input field */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.footer{
+    padding: 0px;
+    text-align: center;
+    margin-top: 200px; /* Add top margin */
+    margin-left: 0px; /* Add left margin */
+    margin-right: 0px; /* Add right margin */
+    width: 100%; /* Make the footer image fill horizontally */
+}
+
+.footer{
+    background: linear-gradient(to top, #f7d0dc, #e3c1ff);
+    font-weight: 50;
+    padding: 20px;
+}
+
+.footer p{
+    margin: 0px;
+}
+
+.footer h3{
+    margin: 20px;
+}
+input[type="text"]{
+    border-radius: 25px;
+    color: #a0a0a0;
+    padding: 10px;
+}
+
+.rounded-input {
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* Page 2 styles */
+
+.page2-image-text-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.page2-text {
+    flex: 1;
+    padding: 20px;
+    margin-right: 40px;
+}
+
+.page2-image {
+    flex: 1;
+    text-align: right;
+}
+
+.page2-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .polygon .text-overlay {
+        font-size: 16px;
+    }
+
+    .text-overlay {
+        width: 80%;
+        left: 10%;
+    }
+
+    .photo-text-section {
+        flex-direction: column;
+    }
+
+    .photo-section,
+    .text-section {
+        width: 100%;
+    }
+
+    .text-section {
+        height: auto;
+        padding: 20px;
+    }
+
+    .styled-button1 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}

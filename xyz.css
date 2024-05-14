@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.padding {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    left: auto;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+}
+  .image-container {
+    position: relative; /* Needed for absolute positioning */
+  }
+
+  .image-container img {
+    width: 100%; /* Adjust width as needed */
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%); /* Center vertically */
+    color: white; /* Example text color */
+    background: none; /* No background color */
+    padding: 10px;
+    text-align: left; /* Center align text */
+	width: 50%; /* Limit text width to 50% of the container */
+  }
+.gradient-container {
+  position: relative; /* Needed for pseudo-element positioning */
+  overflow: hidden; /* Avoid content overflowing the container */
+}
+
+.gradient-container:after {
+  content: ""; /* Empty content for the pseudo-element */
+  position: absolute;
+  top: 0; /* Adjust top position as needed */
+  left: 0;
+  width: 100%; 
+  height: 100%; /* Adjust height for desired gradient area */
+  padding: 0px; /* Adjust padding as needed */
+  background-image: linear-gradient(to right, #FAD4E5 0%, #FCFCF3 100%); /* Replace colors with your desired gradient */
+  z-index: -1; /* Place the gradient behind the content */
+}
